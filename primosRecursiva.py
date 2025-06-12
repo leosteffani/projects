@@ -15,4 +15,3 @@ def p(numero):
     if count == 1:
         resposta.append(numero)
     return resposta
-print(p(10))
