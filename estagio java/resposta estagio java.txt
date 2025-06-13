@@ -1,0 +1,19 @@
+1 - Diferenciar as camadas 2 e 3 do modelo OSI, e indicar os protocolos utilizados para endereçamento nestas camadas.
+
+Camada de Enlace de Dados (2) – A camada de enlace detecta e, possivelmente, corrige erros na camada de meios físicos, fornece à camada de rede a capacidade de pedir estabelecimento de circuitos de dados na camada física É responsável pelo envio da confirmação de recebimento de quadro. Cabe a esta camada resolver problemas causados por quadros perdidos, duplicados ou danificados. Outra função desta camada é o controle de fluxo de informações.
+protocolos de enlace:
+- PPP(Point-to-Point Protocol)
+- Ethernet
+- IEEE802.11 - WiFi
+- Token ring
+
+Camada de Rede (3) – A camada de rede agrupa protocolos de operação da rede, tais como algoritmos de roteamento e de controle de congestionamento. Cabe a ela levar os pacotes da origem ao destino, optando pelo caminho apropriado. A camada de rede deve conhecer a topologia da sub-rede, proporcionado uma rota que evite congestionamentos, podendo inclusive exigir muitos saltos em nós intermediários. 
+- IP (IPv4/IPv6)
+- ICMP
+- IGMP
+
+2 - Qual a diferença entre adotar uma solução proprietária como o sistema operacional Windows quando comparado a adoção de uma solução OpenSource como o sistema operacional Ubuntu? Quais seriam os pontos negativos e positivos de cada abordagem?
+além do custo nulo, soluções Open Source permitem mais controle para o usuário em relação as operações e aplicações do OS e permite que especialistas façam modificações o OS para se adequar melhor para tarefas especificas. Por outro lado, soluções proprietárias apresentam bem menos problemas de compatibilidade entre aplicações, possui uma usabilidade melhor para usuários não especializados e as vezes, possui aplicações próprias que não estão disponíveis para os OS's Open Source. 
+
+3 - O que seria um projeto Open Source? Como empresas podem adotar tais tecnologias e o que isso acarreta?
+Projetos Open Source são projetos e ferramentas disponibilizadas livremente para a comunidade usar e modificar como bem entender, empresas podem usar essas tecnologias para auxiliar em suas atividades, o bom de usar essas ferramentas é que são bem mais acessíveis e podem ser modificadas pela própria empresa para se adequar melhor as praticas que quiserem.
